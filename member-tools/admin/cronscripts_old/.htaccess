@@ -1,0 +1,4 @@
+AuthUserFile "/home/censible/.htpasswds/public_html/cyclefolsom.com/member-tools/admin/cronscripts/passwd"
+AuthType Basic
+AuthName "PW Required"
+require valid-user

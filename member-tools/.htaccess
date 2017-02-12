@@ -1,0 +1,7 @@
+
+# End password protection #
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteCond %{REQUEST_URI} member-tools
+RewriteRule ^(.*)$ https://www.cyclefolsom.com/member-tools/$1 [R,L]
+

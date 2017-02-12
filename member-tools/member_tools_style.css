@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+.failed_login {
+	background-color:#a10000;
+	color:#FFF;
+	font-weight:bold;
+	padding:3px;
+}
+td.jtable {padding: 5px; font-size:14px;} /* or you can target individual cells */
+th.jtable {padding: 5px; font-size:14px;} /* or you can target individual cells */
+
+#cfwrapper{
+	width:900px;
+	margin: 0 auto;
+	margin-top:0px;
+}
+#cfleftcolumn, #cfrightcolumn {
+    float: left;
+    min-height: 130px;
+}
+#cfleftcolumn {
+     width: 700px;
+}
+
+#cfrightcolumn {
+     width: 190px;
+	 padding-left:10px;
+}
+
+
+#cfleftcolumn2, #cfrightcolumn2 {
+    float: left;
+    min-height: 100px;
+}
+#cfleftcolumn2 {
+     width: 700px;
+}
+
+#cfrightcolumn2 {
+     width: 190px;
+	 padding-left:10px;
+}
+ td.cf {
+	 font-size:14;
+ }
+  td.cfgreen {
+	  color:#390;
+	 font-size:14;
+ }
+ td.cfred {
+	  color:#A10000;
+	 font-size:14;
+ }
+ .subtitle{
+  color: #A10000;
+  font-family: source-sans-pro, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 8px 0px 0px;
+  }
+.pagedesc {
+	font-size: 17px;
+	color: #232323;
+	font-family: source-sans-pro, sans-serif;
+	line-height: 1.4;
+
+	 }
+table.padded-outside td { padding:4px; }
+table.padded-table td { padding:4px; }
+table.padded-table tr td.blk  {
+	font-size:12;
+}
+.hero-unit2{padding:10px;margin-bottom:20px;font-size:14px;line-height:30px;color:inherit;background-color:#ebebeb;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}
+ 
+.tip {
+	font-size:11px}
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-bottom: 5px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 160px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	background-color: #000;
+	background-color: hsla(0, 0%, 20%, 0.9);
+	color: #fff;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #000;
+	border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+
+  .jbutton{
+	    z-index: 263;
+  width: 194px;
+  min-height: 39px;
+  background-color: #A10000;
+  border-radius: 4px;
+  line-height: 0.88;
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400;
+  position: relative;
+  }
+  li {
+    list-style-type: square;
+	list-style:square;
+	margin-left:30px;
+}
+ hr.cf { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: .3em ; padding: 0; }
+  .pagedesc {
+	font-size: 17px;
+	color: #232323;
+	font-family: source-sans-pro, sans-serif;
+	line-height: 1.4;
+
+	 }
+
+  .subtitle_follow{
+	    color: #000000;
+  font-style: italic;}
+  .reqfield{
+	  margin-top:30px;
+	  color:#a10000;
+	  font-size:11px;
+	  font-weight:bold;}
+  .asterisk{
+	  color: #a00000;
+	  font-size:13px;
+  }
+  .fieldexplain{
+	  font-size:11px;
+	  font-style:italic;
+  }
+  .fieldlabel{
+	  font-size:11px;
+	   font-style:italic;
+	  line-height:.5;
+	  margin:0;
+	  padding:0;
+  }
+  
+  .messageboxhide{
+display:none;
+}
+
+.messagebox{
+ 
+ float:left;
+ width:auto;
+ height:20px;
+ margin-right:30px;
+ border:1px solid #c93;
+ background:#ffc;
+}
+
+.messageboxok{
+ float:left;
+ width:auto;
+ height:20px;
+ margin-right:30px;
+ border:1px solid #349534;
+ background:#C9FFCA;
+ font-weight:bold;
+ color:#008000;
+}
+.messageboxerror{
+ float:left;
+ width:auto;
+ height:20px;
+ margin-right:30px;
+ border:1px solid #CC0000;
+ background:#F7CBCA;
+ font-weight:bold;
+ color:#CC0000;
+}
+.pwtext {
+	font-size: 12px;
+	color: #F00;
+}
+.pwtext2 {
+	font-size: 12px;
+	color: #a10000;
+}
+
+.jlogin {
+  background-color: #A10000;
+  border-radius: 4px;
+  padding:3px;
+  text-align: center;
+  font-size: 13px;
+  color: #FFFFFF;
+  font-family: source-sans-pro, sans-serif;
+  position: relative;
+}

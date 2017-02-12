@@ -1,0 +1,11 @@
+<?php
+session_start();
+// set the expiration date to one hour ago
+//setcookie("csmbinder", "", time()-3600);
+unset($_SESSION['myusername']);
+unset($_SESSION['account_id']);
+session_unset(); 
+session_destroy();
+ header( 'Location: https://www.cyclefolsom.com/member-tools' ) ;
+
+?>

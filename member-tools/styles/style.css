@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+p.contactform {
+	margin:2px;
+}
+
+._10 {
+    width: 6%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._20 {
+    width: 16%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._25 {
+    width: 21%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._30 {
+    width: 26%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._33 {
+    width: 29.3%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._40 {
+    width: 36%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._50 {
+    width: 46%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._75 {
+    width: 71%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._100 {
+    width: 96%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._100r {
+    width: 96%;
+    display: inline;
+    float: right;
+	text-align:right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.clearme
+{
+clear:both;
+}
+
+label.contactform {
+    width: 100%;
+}
+input.contactform {
+    border: 1px solid #B3B3B3;
+    width: 100%;
+    -moz-border-radius: 3px;
+}
+textarea.contactform {
+    border: 1px solid #B3B3B3;
+    width: 100%;
+    -moz-border-radius: 3px;
+}
+select.contactform {
+    border: 1px solid #B3B3B3;
+    width: 100%;
+    -moz-border-radius: 3px;
+}
+p.clear
+{
+clear:both;
+}
+
+.bold_label {
+	font-weight:bold;
+}
+
